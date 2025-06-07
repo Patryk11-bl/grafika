@@ -39,3 +39,5 @@ def reverse_img_short(img):
     img_reverse=img[::-1]
     return img_reverse
 show_image(reverse_img_short(image))
+
+show_image(cv2.flip(image,0))
