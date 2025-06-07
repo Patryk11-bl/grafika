@@ -41,3 +41,5 @@ def reverse_img_short(img):
 show_image(reverse_img_short(image))
 
 show_image(cv2.flip(image,0))
+
+show_image(cv2.cvtColor(image,cv2.COLOR_BGR2GRAY))
